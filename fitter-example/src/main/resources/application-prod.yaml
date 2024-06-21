@@ -1,0 +1,15 @@
+service:
+  name: "Example"
+
+kafka:
+  consumer:
+    groupId: "example-app"
+    clientId: "example-client"
+    bootstrapServers:
+      - "localhost:9092"
+    autoCommitInterval: 10
+
+redis:
+  host: "localhost:3000"
+  user: "admin"
+  password: "abc"
